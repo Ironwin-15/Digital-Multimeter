@@ -208,48 +208,6 @@ Example:
 
 ---
 
-# Generated Plots
-
-## Resistance Accuracy
-
-The plot below compares the percentage error of both- non-auto ranged and auto-ranged resistance measurements over a dynamic range of 10 Ω to 1 MΩ.
-
-<p align="center">
-  <img src="results/plot_resistance_error.png" width="700">
-</p>
-
----
-
-## Capacitance Accuracy
-
-Percentage error of capacitance measurement across 10 nF to 100 μF.
-
-<p align="center">
-  <img src="results/plot_capacitance_error.png" width="700">
-</p>
-
----
-
-## Inductance Accuracy
-
-Percentage error of inductance measurement across 10 μH to 100 mH.
-
-<p align="center">
-  <img src="results/plot_inductance_error.png" width="700">
-</p>
-
----
-
-## Measured Resistance vs True Resistance
-
-The scatter plot below compares measured resistance values with their corresponding true values. The points closely follow the ideal y = x line, demonstrating high measurement accuracy.
-
-<p align="center">
-  <img src="results/plot_resistance_scatter.png" width="700">
-</p>
-
----
-
 # Conclusion
 
 This project demonstrates a complete software implementation of an auto-ranging digital multimeter. The system uses physical measurement principles, realistic noise models, and adaptive range selection to achieve accurate measurements across a dynamic range of five decades while emulating the operating principles of commercial digital multimeters.
